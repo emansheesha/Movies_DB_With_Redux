@@ -15,7 +15,6 @@ const Pagination = () => {
     useEffect(()=>{setPageCount(pages)},[pages])
     const handlePageClick = (data) => {
         const page = data.selected + 1;
-        console.log(page)
         handlePageChange(page);
     };
     return (
